@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AUTOMATED VOUCHER</title>
+	<link rel="stylesheet" href="vauto.css">
+	<script type="text/javascript" src="vauto.js"></script>
+</head>
+<body onunload="valsave()" onload="getvauto()" > 
+	<center>
+		<h1>VOUCHER GENERATOR </h1>
+		<div id="cont">				
+
+			<div id="menu">				
+				<button title="Click here to view your Balance" onclick="balance()">Balance</button>
+				<button id="remvouch" title="Click here to view voucher" onclick="aval()"> Available voucher</button>
+				<label> <b>Fill the boxes below to generate voucher</b></label>
+				<input type="number" name="" id="gen" placeholder="Enter number" title="plesae input the number of voucher to generate ">
+				<input type="number" name="" id="genty" placeholder="200 or 500 type?" title="plesae input the type of voucher to generate ">
+				<button onclick="gene()" title="Click here to generate voucher">Generate</button>
+				<input  name="" id="lodput" placeholder="Enter voucher" title="plesae input the number of available voucher to recharge ">
+				<button title="Click here to load voucher" onclick="
+				load()">Load</button>				
+
+			</div>
+
+			<div id="aval">
+				<div id="showval"></div>
+				<div >
+					<div id="loadstat" ></div>
+					<div id="balval" ></div>
+				</div>
+			</div>
+
+		</div>
+	</center>
+</body>
+</html>
