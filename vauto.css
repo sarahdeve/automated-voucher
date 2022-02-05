@@ -1,0 +1,124 @@
+body{
+	font-family: "century gothic";}
+#cont{
+	box-sizing: border-box;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: flex;
+	width: 40%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin: auto;
+	border-radius: 10px;
+	background-color: #f1f4f1;
+	border: 5px solid #077a39;
+	box-shadow: 4px 4px 20px 4px rgba(0,0,0,0.4); }
+
+#menu{
+	box-sizing: border-box;
+	width: 40%;
+	border-right: 3px solid #077a39;
+	} 
+
+#aval{
+	box-sizing: border-box;
+	width: 70%;
+	}
+h1{
+	color: #077a39;}
+label{
+	font-size: 80%;
+}
+button{
+		font-size: 110%;
+		width:90%;
+		height: 40px;
+		line-height: 25px;
+		border:0;
+		border-radius: 30px;
+		background-color:#077a39;
+		color: white;
+		box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
+		margin: 10px 0 5px 0;
+		display: block;
+		clear: both; }
+
+button:hover{
+		background-color: black;
+}
+
+input{
+		text-align: center;
+		width: 90%;
+		height: 30px;
+		border-radius: 10px;
+		line-height: 30px;
+		font-size: 105%;
+		/*color: green;*/
+		box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
+		border:2px solid #077a39;
+		margin: 10px 0 10px 0; }
+
+
+@media screen and (max-width: 450px){
+#cont{
+	display: block;
+	width: 90%;  
+	box-sizing: border-box;	
+	overflow-x: hidden;
+	margin: auto;
+	border-radius: 10px;
+	background-color: #f1f4f1;
+	border: 3px solid #077a39;
+	box-shadow: 4px 4px 20px 4px rgba(0,0,0,0.4);}
+
+#menu{
+	border: 0px;
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	} 
+
+#aval{
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	}
+button{
+		font-size: 110%;
+		width:70%;
+		height: 40px;
+		line-height: 25px;
+		border:0;
+		border-radius: 30px;
+		background-color:#077a39;
+		color: white;
+		box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
+		margin: 10px 0 5px 0;
+		display: block;
+		clear: both; }
+
+input{
+		text-align: center;
+		width: 70%;
+		height: 30px;
+		border-radius: 10px;
+		line-height: 30px;
+		font-size: 105%;
+		/*color: green;*/
+		box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
+		border:2px solid #077a39;
+		margin: 10px 0 10px 0; }
+
+}
+
+
+
+
+@media screen and (min-width: 760px ) and (max-width: 1024px){
+
+#cont{
+	width: 90%;
+	box-sizing: border-box;}
+
+}
